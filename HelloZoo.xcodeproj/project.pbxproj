@@ -12,6 +12,8 @@
 		3A90F7DC1E9B6E0300535D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A90F7DA1E9B6E0300535D48 /* Main.storyboard */; };
 		3A90F7DE1E9B6E0300535D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A90F7DD1E9B6E0300535D48 /* Assets.xcassets */; };
 		3A90F7E11E9B6E0300535D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A90F7DF1E9B6E0300535D48 /* LaunchScreen.storyboard */; };
+		3A90F7E91E9B6E6300535D48 /* HelloZooTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90F7E81E9B6E6300535D48 /* HelloZooTableViewController.swift */; };
+		3A90F7EB1E9C76D900535D48 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90F7EA1E9C76D900535D48 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3A90F7DD1E9B6E0300535D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A90F7E01E9B6E0300535D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A90F7E21E9B6E0300535D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A90F7E81E9B6E6300535D48 /* HelloZooTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloZooTableViewController.swift; sourceTree = "<group>"; };
+		3A90F7EA1E9C76D900535D48 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3A90F7DD1E9B6E0300535D48 /* Assets.xcassets */,
 				3A90F7DF1E9B6E0300535D48 /* LaunchScreen.storyboard */,
 				3A90F7E21E9B6E0300535D48 /* Info.plist */,
+				3A90F7E81E9B6E6300535D48 /* HelloZooTableViewController.swift */,
+				3A90F7EA1E9C76D900535D48 /* DetailViewController.swift */,
 			);
 			path = HelloZoo;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A90F7E91E9B6E6300535D48 /* HelloZooTableViewController.swift in Sources */,
 				3A90F7D91E9B6E0300535D48 /* ViewController.swift in Sources */,
 				3A90F7D71E9B6E0300535D48 /* AppDelegate.swift in Sources */,
+				3A90F7EB1E9C76D900535D48 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +308,7 @@
 				3A90F7E71E9B6E0300535D48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
